@@ -35,13 +35,56 @@ body
 label
 {
     color: #fff;
-    font-size: 2.3em;
+    font-size: 2.0em;
     justify-content: center;
     display: flex;
     margin: 60px;
     font-weight: bold;
     cursor: pointer;
     transition: .5s ease-in-out;
+}
+h2
+{
+    width: 60%;
+    height: 20px;
+    background: transparent;
+    justify-content: center;
+    color: #39d4c0;
+    display: flex;
+    margin: 20px auto;
+    padding: -25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+h4
+{
+    width: 60%;
+    height: 20px;
+    background: transparent;
+    justify-content: center;
+    color: #39d4c0;
+    display: flex;
+    margin: 20px auto;
+    padding: -50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+p
+{
+    width: 60%;
+    height: 20px;
+    background: transparent;
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: -25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
 input
 {
@@ -64,7 +107,7 @@ button
     justify-content: center;
     display: block;
     color: #fff;
-    background: #573b8a;
+    background: #6fdfd1;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
@@ -76,7 +119,7 @@ button
 }
 button:hover
 {
-    background: #6d44b8;
+    background: #39d4c0;
 }
 .login
 {
@@ -88,7 +131,7 @@ button:hover
 }
 .login label
 {
-    color: #573b81;
+    color: #39d4c0;
     transform: scale(.6);
 }
 #chk:checked ~ .login
